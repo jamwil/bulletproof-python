@@ -12,5 +12,5 @@ def test_main(caplog: pytest.LogCaptureFixture) -> None:
     """Test the entry point."""
     main.main()
     assert caplog.record_tuples == [
-        ("root", logging.WARNING, "Hello World"),
+        ("root", logging.WARNING, "Hello World - test"),
     ]
