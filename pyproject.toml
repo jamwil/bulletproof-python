@@ -1,0 +1,127 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+
+[project]
+name = "practical-python"
+version = "0.1.0"
+description = 'Update me...'
+readme = "README.md"
+requires-python = ">=3.10"
+keywords = []
+authors = [{ name = "James Williams", email = "james@kananlabs.org" }]
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: Implementation :: CPython",
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "black",
+    "mypy",
+    "pip-tools",
+    "pre-commit",
+    "pytest",
+    "pytest-cov",
+    "ruff",
+]
+
+[project.scripts]
+practical-python = "practical_python.main:main"
+
+[project.urls]
+Documentation = "https://github.com/jamwil/practical-python#readme"
+Issues = "https://github.com/jamwil/practical-python/issues"
+Source = "https://github.com/jamwil/practical-python"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.coverage.run]
+branch = true
+parallel = true
+
+[tool.coverage.report]
+exclude_lines = ["no cov", "if __name__ == .__main__.:", "if TYPE_CHECKING:"]
+paths = ["src", ".tox/*/lib/python*/site-packages"]
+
+[tool.mypy]
+python_version = "3.11"
+warn_unused_configs = true
+warn_unused_ignores = true
+warn_redundant_casts = true
+warn_return_any = true
+warn_unreachable = true
+strict = true
+overrides = [{ module = [], ignore_missing_imports = true }]
+
+[tool.ruff]
+target-version = "py311"
+select = [
+    "E",
+    "F",
+    "W",
+    "C90",
+    "I",
+    "D",
+    "UP",
+    "N",
+    "YTT",
+    "ANN",
+    "S",
+    "BLE",
+    "FBT",
+    "B",
+    "A",
+    "C4",
+    "T10",
+    "EM",
+    "ICN",
+    "T20",
+    "Q",
+    "RET",
+    "SIM",
+    "TID",
+    "ARG",
+    "ERA",
+    "PD",
+    "PLC",
+    "PLE",
+    "PLR",
+    "PLW",
+    "RUF",
+]
+extend-ignore = [
+    "ANN101",
+    "D203",
+    "D212",
+    "D213",
+    "D214",
+    "D215",
+    "D404",
+    "D405",
+    "D406",
+    "D407",
+    "D408",
+    "D409",
+    "D410",
+    "D411",
+    "D413",
+    "D415",
+    "D416",
+    "D417",
+    "E999",
+]
+src = ["src", "tests"]
+
+[tool.ruff.per-file-ignores]
+"tests/*.py" = ["S101"]
+
+[tool.ruff.isort]
+known-first-party = ["practical_python"]
