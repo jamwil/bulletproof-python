@@ -1,10 +1,10 @@
 # practical-python
 
-A practical python project template using tox, pytest and pip-tools.
+A practical python project template using tox, ruff, pytest and pip-tools.
 
 This is not production ready, but it's a good starting point. Requirements
 should be specified in pyproject.toml and then pinned using pip-tools in
-requirements.txt. The requirements.txt file is used by tox.
+`requirements.txt`. The `requirements.txt` file is used by tox.
 
 ## Usage
 
