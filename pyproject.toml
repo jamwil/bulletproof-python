@@ -2,7 +2,7 @@
 requires = ["setuptools", "wheel"]
 
 [project]
-name = "practical-python"
+name = "bulletproof-python"
 version = "0.1.0"
 description = 'Update me...'
 readme = "README.md"
@@ -30,12 +30,12 @@ dev = [
 ]
 
 [project.scripts]
-practical-python = "practical_python.main:main"
+bulletproof-python = "bulletproof_python.main:main"
 
 [project.urls]
-Documentation = "https://github.com/jamwil/practical-python#readme"
-Issues = "https://github.com/jamwil/practical-python/issues"
-Source = "https://github.com/jamwil/practical-python"
+Documentation = "https://github.com/jamwil/bulletproof-python#readme"
+Issues = "https://github.com/jamwil/bulletproof-python/issues"
+Source = "https://github.com/jamwil/bulletproof-python"
 
 [tool.setuptools]
 package-dir = { "" = "src" }
@@ -124,4 +124,4 @@ src = ["src", "tests"]
 "tests/*.py" = ["S101"]
 
 [tool.ruff.isort]
-known-first-party = ["practical_python"]
+known-first-party = ["bulletproof_python"]

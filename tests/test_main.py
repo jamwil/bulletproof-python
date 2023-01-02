@@ -5,7 +5,7 @@ import logging
 
 import pytest
 
-from practical_python import main
+from bulletproof_python import main
 
 
 def test_main(caplog: pytest.LogCaptureFixture) -> None:
