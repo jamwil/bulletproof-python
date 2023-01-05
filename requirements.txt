@@ -60,7 +60,7 @@ pytest-cov==4.0.0
     # via bulletproof-python (pyproject.toml)
 pyyaml==6.0
     # via pre-commit
-ruff==0.0.210
+ruff==0.0.211
     # via bulletproof-python (pyproject.toml)
 typing-extensions==4.4.0
     # via mypy
