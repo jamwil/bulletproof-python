@@ -34,7 +34,7 @@ mypy-extensions==0.4.3
     #   mypy
 nodeenv==1.7.0
     # via pre-commit
-packaging==22.0
+packaging==23.0
     # via
     #   build
     #   pytest
