@@ -24,7 +24,7 @@ filelock==3.9.0
     # via virtualenv
 identify==2.5.12
     # via pre-commit
-iniconfig==1.1.1
+iniconfig==2.0.0
     # via pytest
 mypy==0.991
     # via bulletproof-python (pyproject.toml)
