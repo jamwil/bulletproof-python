@@ -64,38 +64,38 @@ overrides = [{ module = [], ignore_missing_imports = true }]
 [tool.ruff]
 target-version = "py311"
 select = [
-    "E",
-    "F",
-    "W",
-    "C90",
-    "I",
-    "D",
-    "UP",
-    "N",
-    "YTT",
-    "ANN",
-    "S",
-    "BLE",
-    "FBT",
-    "B",
-    "A",
-    "C4",
-    "T10",
-    "EM",
-    "ICN",
-    "T20",
-    "Q",
-    "RET",
-    "SIM",
-    "TID",
-    "ARG",
-    "ERA",
-    "PD",
-    "PLC",
-    "PLE",
-    "PLR",
-    "PLW",
-    "RUF",
+    "E",   # pycodestyle
+    "F",   # pyflakes
+    "W",   # pycodestyle
+    "C90", # mccabe
+    "I",   # isort
+    "D",   # pydocstyle
+    "UP",  # pyupgrade
+    "N",   # pep8-naming
+    "YTT", # flake8-2020
+    "ANN", # flake8-annotations
+    "S",   # flake8-bandit
+    "BLE", # flake8-blind-except
+    "FBT", # flake8-boolean-trap
+    "B",   # flake8-bugbear
+    "A",   # flake8-builtins
+    "C4",  # flake8-comprehensions
+    "T10", # flake8-debugger
+    "EM",  # flake8-errmsg
+    "ICN", # flake8-import-conventions
+    "T20", # flake8-print
+    "Q",   # flake8-quotes
+    "RET", # flake8-return
+    "SIM", # flake8-simplify
+    "TID", # flake8-tidy-imports
+    "ARG", # flake8-unused-arguments
+    "ERA", # eradicate
+    "PD",  # pandas-vet
+    "PLC", # pylint
+    "PLE", # pylint
+    "PLR", # pylint
+    "PLW", # pylint
+    "RUF", # ruff-specific rules
 ]
 extend-ignore = [
     "ANN101",
