@@ -28,7 +28,7 @@ iniconfig==2.0.0
     # via pytest
 mypy==1.0.0
     # via bulletproof-python (pyproject.toml)
-mypy-extensions==0.4.3
+mypy-extensions==1.0.0
     # via
     #   black
     #   mypy
