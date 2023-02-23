@@ -50,7 +50,7 @@ platformdirs==2.6.2
     #   virtualenv
 pluggy==1.0.0
     # via pytest
-pre-commit==3.0.4
+pre-commit==3.1.0
     # via bulletproof-python (pyproject.toml)
 pytest==7.2.1
     # via
