@@ -42,7 +42,7 @@ pathspec==0.11.0
     # via black
 pep517==0.13.0
     # via build
-pip-tools==6.12.2
+pip-tools==6.12.3
     # via bulletproof-python (pyproject.toml)
 platformdirs==3.0.0
     # via
