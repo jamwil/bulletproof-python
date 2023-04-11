@@ -14,7 +14,7 @@ should be specified in pyproject.toml and then pinned using pip-tools in
 1. Clone this repository
 1. Create and activate a virtual environment
 1. Install the requirements (optionally update the pins with pip-tools:
-   `pip-compile --all-extras --resolver=backtracking pyproject.toml`)
+   `pip-compile --all-extras --resolver=backtracking --upgrade pyproject.toml`)
 1. Install the package in editable mode: `pip install -e .`
 1. Install the pre-commit hooks: `pre-commit install`
 1. Run the test suite with tox: `tox`
