@@ -101,6 +101,7 @@ select = [
     "SIM", # flake8-simplify
     "TID", # flake8-tidy-imports
     "TCH", # flake8-type-checking
+    "INT", # flake8-type-checking
     "ARG", # flake8-unused-arguments
     "PTH", # flake8-use-pathlib
     "ERA", # eradicate
@@ -111,7 +112,7 @@ select = [
     "NPY", # NumPy-specific rules
     "RUF", # Ruff-specific rules
 ]
-extend-ignore = ["ANN101", "E999"]
+ignore = ["ANN101", "E999"]
 src = ["src", "tests"]
 
 [tool.ruff.per-file-ignores]
