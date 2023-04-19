@@ -18,7 +18,7 @@ coverage[toml]==7.2.3
     # via pytest-cov
 distlib==0.3.6
     # via virtualenv
-filelock==3.11.0
+filelock==3.12.0
     # via virtualenv
 identify==2.5.22
     # via pre-commit
