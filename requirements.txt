@@ -61,7 +61,7 @@ pyyaml==6.0
     # via pre-commit
 ruff==0.0.267
     # via bulletproof-python (pyproject.toml)
-typing-extensions==4.5.0
+typing-extensions==4.7.0
     # via mypy
 virtualenv==20.23.0
     # via pre-commit
