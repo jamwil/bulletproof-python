@@ -47,7 +47,7 @@ platformdirs==3.8.1
     #   virtualenv
 pluggy==1.2.0
     # via pytest
-pre-commit==3.2.2
+pre-commit==3.3.3
     # via bulletproof-python (pyproject.toml)
 pyproject-hooks==1.0.0
     # via build
