@@ -55,7 +55,7 @@ pytest==7.4.0
     # via bulletproof-python (pyproject.toml)
 pyyaml==6.0
     # via pre-commit
-ruff==0.0.277
+ruff==0.0.278
     # via bulletproof-python (pyproject.toml)
 typing-extensions==4.7.1
     # via mypy
