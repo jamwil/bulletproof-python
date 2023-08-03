@@ -39,7 +39,7 @@ packaging==23.1
     #   pytest
 pathspec==0.11.1
     # via black
-pip-tools==7.1.0
+pip-tools==7.2.0
     # via bulletproof-python (pyproject.toml)
 platformdirs==3.9.1
     # via
