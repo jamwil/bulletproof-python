@@ -43,9 +43,9 @@ elbow grease involved relative to more batteries-included tools like poetry.
 1. Install tox using pipx
 1. Click 'Use this template' to create a new repository and clone it
 1. Create and activate a virtual environment
-1. Install the requirements with `python -m pip install -r requirements.txt`
-   (optionally update the pins first with pip-tools:
-   `pip-compile --all-extras --resolver=backtracking --upgrade pyproject.toml`)
+1. Install the dependencies with
+   `python -m pip install --upgrade pip setuptools wheel pip-tools` followed by
+   `pip-sync`
 1. Install the first-party package in editable mode: `pip install -e .`
 1. Install the pre-commit hooks: `pre-commit install`
 1. Run the test suite with tox: `tox`
@@ -86,22 +86,24 @@ python -m venv .venv
 source .venv/bin/activate
 ```
 
-### 4. Install the Requirements
+### 4. Install the Dependencies
 
 The requirements.txt file lists the Python dependencies for your project. Using
 pip-tools, we can pin the exact version of each dependency to ensure
 reproducible builds.
 
-Install these using pip:
+Install the core python dependencies then install the project dependencies using
+pip-tools:
 
 ```bash
-python -m pip install -r requirements.txt
+python -m pip install --upgrade pip setuptools wheel pip-tools
+pip-sync
 ```
 
-You can optionally use pip-tools to update all dependencies before running the
-previous command. This isn't strictly necessary as I keep this repository
-more-or-less up to date, and dependabot will submit pull requests for out of
-date packages automatically.
+You can optionally use pip-tools to update all dependencies before running
+`pip-sync`. This isn't strictly necessary as I keep this repository more-or-less
+up to date, and dependabot will submit pull requests for out of date packages
+automatically.
 
 ```bash
 pip-compile --all-extras --resolver=backtracking --upgrade pyproject.toml
