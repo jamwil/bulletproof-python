@@ -147,9 +147,9 @@ tool:
 tox
 ```
 
-By default, this will create environments for both py310 and py311. This assumes
-both versions of python are available on your system. Take a look at pyenv to
-make this easy.
+By default, this will create environments for py310, py311 and py312. This
+assumes all versions of python are available on your system. Take a look at
+pyenv to make this easy.
 
 You can add additional python versions to test against by modifying `tox.ini`
 and the corresponding github-action workflow.
