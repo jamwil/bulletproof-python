@@ -4,7 +4,7 @@
 #
 #    pip-compile --all-extras --resolver=backtracking pyproject.toml
 #
-black==23.9.1
+black==23.10.0
     # via bulletproof-python (pyproject.toml)
 build==1.0.3
     # via pip-tools
