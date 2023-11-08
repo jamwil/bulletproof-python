@@ -18,7 +18,7 @@ coverage==7.3.2
     # via bulletproof-python (pyproject.toml)
 distlib==0.3.7
     # via virtualenv
-filelock==3.12.4
+filelock==3.13.1
     # via virtualenv
 identify==2.5.30
     # via pre-commit
