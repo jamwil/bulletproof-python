@@ -1,6 +1,5 @@
 """Unit tests for the entry point."""
 
-
 import logging
 
 import pytest

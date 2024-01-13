@@ -1,6 +1,5 @@
 """Entry point for the package."""
 
-
 import logging
 
 
