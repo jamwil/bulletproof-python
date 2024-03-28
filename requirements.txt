@@ -6,7 +6,7 @@
 #
 black==24.4.1
     # via bulletproof-python (pyproject.toml)
-build==1.1.1
+build==1.2.1
     # via pip-tools
 cfgv==3.4.0
     # via pre-commit
