@@ -4,7 +4,7 @@
 #
 #    pip-compile --all-extras pyproject.toml
 #
-black==24.3.0
+black==24.4.0
     # via bulletproof-python (pyproject.toml)
 build==1.1.1
     # via pip-tools
