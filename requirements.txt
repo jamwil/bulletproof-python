@@ -41,7 +41,7 @@ pathspec==0.12.1
     # via black
 pip-tools==7.4.1
     # via bulletproof-python (pyproject.toml)
-platformdirs==4.2.0
+platformdirs==4.2.1
     # via
     #   black
     #   virtualenv
