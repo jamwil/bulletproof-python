@@ -20,7 +20,7 @@ distlib==0.3.8
     # via virtualenv
 filelock==3.13.4
     # via virtualenv
-identify==2.5.35
+identify==2.5.36
     # via pre-commit
 iniconfig==2.0.0
     # via pytest
