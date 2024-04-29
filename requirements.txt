@@ -49,7 +49,7 @@ pluggy==1.4.0
     # via pytest
 pre-commit==3.7.0
     # via bulletproof-python (pyproject.toml)
-pyproject-hooks==1.0.0
+pyproject-hooks==1.1.0
     # via build
 pytest==8.1.1
     # via bulletproof-python (pyproject.toml)
