@@ -4,10 +4,18 @@ A magic-free, understandable python project template using tox, ruff, pytest and
 pip-tools. This template requires you to manage your own virtual environment,
 but the configuration is explicit and easy to understand.
 
-This is a great starting point, but it is just that. There are a great many best
-practices with respect to packaging and distribution that are not covered here,
-and for which I refer you to
+This is a great starting point for internal tools, but it is just that. There
+are a great many best practices with respect to packaging and distribution that
+are not covered here, and for which I refer you to
 [Seth Michael Larson's secure-python-package-template](https://github.com/sethmlarson/secure-python-package-template).
+
+Moreover, since I created this template, ruff has become a
+[for-profit company](https://astral.sh) and has integrated code formatting that
+replaces black. They have also developed [uv](https://docs.astral.sh/uv/) which
+has earned a strong foothold in the python workflow space. Much of this template
+could be simplified using those cutting edge tools, however I likely will not
+update it to match as I feel it is a useful reference for those who may not wish
+to depend entirely on a vc-backed ecosystem.
 
 ## Background
 
@@ -147,8 +155,8 @@ tool:
 tox
 ```
 
-By default, this will create environments for py310, py311 and py312. This
-assumes all versions of python are available on your system. Take a look at
+By default, this will create environments for py310, py311, py312 and py313.
+This assumes all versions of python are available on your system. Take a look at
 pyenv to make this easy.
 
 You can add additional python versions to test against by modifying `tox.ini`

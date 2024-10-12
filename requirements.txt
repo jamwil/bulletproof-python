@@ -4,9 +4,9 @@
 #
 #    pip-compile --all-extras pyproject.toml
 #
-black==24.4.2
+black==24.10.0
     # via bulletproof-python (pyproject.toml)
-build==1.2.1
+build==1.2.2.post1
     # via pip-tools
 cfgv==3.4.0
     # via pre-commit
@@ -14,17 +14,17 @@ click==8.1.7
     # via
     #   black
     #   pip-tools
-coverage==7.5.3
+coverage==7.6.2
     # via bulletproof-python (pyproject.toml)
-distlib==0.3.8
+distlib==0.3.9
     # via virtualenv
-filelock==3.15.1
+filelock==3.16.1
     # via virtualenv
-identify==2.5.36
+identify==2.6.1
     # via pre-commit
 iniconfig==2.0.0
     # via pytest
-mypy==1.10.0
+mypy==1.11.2
     # via bulletproof-python (pyproject.toml)
 mypy-extensions==1.0.0
     # via
@@ -41,27 +41,29 @@ pathspec==0.12.1
     # via black
 pip-tools==7.4.1
     # via bulletproof-python (pyproject.toml)
-platformdirs==4.2.2
+platformdirs==4.3.6
     # via
     #   black
     #   virtualenv
 pluggy==1.5.0
     # via pytest
-pre-commit==3.7.1
+pre-commit==4.0.1
     # via bulletproof-python (pyproject.toml)
-pyproject-hooks==1.1.0
-    # via build
-pytest==8.2.0
+pyproject-hooks==1.2.0
+    # via
+    #   build
+    #   pip-tools
+pytest==8.3.3
     # via bulletproof-python (pyproject.toml)
-pyyaml==6.0.1
+pyyaml==6.0.2
     # via pre-commit
-ruff==0.4.9
+ruff==0.6.9
     # via bulletproof-python (pyproject.toml)
 typing-extensions==4.12.2
     # via mypy
-virtualenv==20.26.2
+virtualenv==20.26.6
     # via pre-commit
-wheel==0.43.0
+wheel==0.44.0
     # via pip-tools
 
 # The following packages are considered to be unsafe in a requirements file:
