@@ -61,7 +61,7 @@ ruff==0.7.4
     # via bulletproof-python (pyproject.toml)
 typing-extensions==4.12.2
     # via mypy
-virtualenv==20.27.1
+virtualenv==20.28.0
     # via pre-commit
 wheel==0.45.1
     # via pip-tools
