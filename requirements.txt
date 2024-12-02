@@ -53,7 +53,7 @@ pyproject-hooks==1.2.0
     # via
     #   build
     #   pip-tools
-pytest==8.3.3
+pytest==8.3.4
     # via bulletproof-python (pyproject.toml)
 pyyaml==6.0.2
     # via pre-commit
