@@ -10,7 +10,7 @@ build==1.2.2.post1
     # via pip-tools
 cfgv==3.4.0
     # via pre-commit
-click==8.1.7
+click==8.1.8
     # via
     #   black
     #   pip-tools
