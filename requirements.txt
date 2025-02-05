@@ -24,7 +24,7 @@ identify==2.6.3
     # via pre-commit
 iniconfig==2.0.0
     # via pytest
-mypy==1.13.0
+mypy==1.15.0
     # via bulletproof-python (pyproject.toml)
 mypy-extensions==1.0.0
     # via
