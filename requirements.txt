@@ -14,7 +14,7 @@ click==8.1.7
     # via
     #   black
     #   pip-tools
-coverage==7.6.9
+coverage==7.6.12
     # via bulletproof-python (pyproject.toml)
 distlib==0.3.9
     # via virtualenv
