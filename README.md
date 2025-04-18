@@ -1,5 +1,8 @@
 # bulletproof-python
 
+> [!IMPORTANT]  
+> This template has been archived. I am starting my new projects with [uv](https://docs.astral.sh/uv/).
+
 A magic-free, understandable python project template using tox, ruff, pytest and
 pip-tools. This template requires you to manage your own virtual environment,
 but the configuration is explicit and easy to understand.
